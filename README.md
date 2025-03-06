@@ -38,24 +38,24 @@ Here’s how to set up the bot and get it running:
 
 1. **Clone the repository** to your local machine:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/discord-chess-bot.git
    cd discord-chess-bot
 2.**Install the required dependencies:**
 
-bash
-Copy
-pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt  
+   ```
 3.**Create a .env file in the root directory of the project and add your Discord bot token:**
 
-ini
-Copy
+ ```
 DISCORD_BOT_TOKEN=your-bot-token-here
+ ```
 4.**Run the bot:**
 
-bash
-Copy
+ ```
 python bot.py
+ ```
 Now, go to your Discord server, and start challenging everyone to a game! 🥳
 
 Libraries Used 📚
